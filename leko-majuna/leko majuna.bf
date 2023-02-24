@@ -7768,7 +7768,7 @@
 </collection>
 
 <collection name="te" svg="false" colr="false" auto_generate="false" meta_name="">
-	<selected id="2"/>
+	<selected id="1"/>
 	<glyph id="0" left="-28" right="28">
 		<layer name="Layer" visible="true">
 		</layer>
@@ -7779,12 +7779,7 @@
 	</glyph>
 	<glyph id="1" left="0" right="88.86719">
 		<layer name="Layer" visible="true">
-			<path data="S 0,0 L 0,77.73438 L 55.51758,77.73438 L 55.51758,66.65039 L 11.08398,66.65039 L 11.08398,0 L 0,0" />
-		</layer>
-	</glyph>
-	<glyph id="2" left="0" right="88.86719">
-		<layer name="Layer" visible="true">
-			<path data="S 0,0 L 0,77.73438 L 55.51758,77.73438 L 55.51758,66.65039 L 11.08398,66.65039 L 11.08398,0 L 0,0" />
+			<path data="S 11.08398,0 L 11.08398,77.73438 L 66.65039,77.73438 L 66.65039,66.65039 L 22.2168,66.65039 L 22.2168,0 L 11.08398,0" />
 		</layer>
 	</glyph>
 </collection>
@@ -7943,7 +7938,7 @@
 	</glyph>
 	<glyph id="1" left="0" right="88.86719">
 		<layer name="Layer" visible="true">
-			<path data="S 22.2168,0 L 22.2168,11.08398 L 66.65039,11.08398 L 66.65039,77.73438 L 77.73438,77.73438 L 77.73438,0 L 22.2168,0" />
+			<path data="S 11.08398,0 L 11.08398,11.08398 L 55.51758,11.08398 L 55.51758,77.73438 L 66.65039,77.73438 L 66.65039,0 L 11.08398,0" />
 		</layer>
 	</glyph>
 </collection>
