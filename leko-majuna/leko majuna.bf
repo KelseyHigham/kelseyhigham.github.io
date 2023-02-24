@@ -31,16 +31,19 @@
 <external_backgrunds>false</external_backgrunds>
 
 <horizontal>
+	<!-- mi toki tawa jan taso tawa ilo ala la
+	     ilo li awen ala awen e toki
+	 -->
 	<top_limit>88.86719</top_limit>
 	<top_position>55.51758</top_position>
 	<x-height>33.30078</x-height>
 	<base_line>0</base_line>
 	<bottom_position>0</bottom_position>
-	<bottom_limit>-11.08398</bottom_limit>
+	<bottom_limit>-22.16796</bottom_limit>
 	<line_gap>0</line_gap>
 </horizontal>
 
-<grid width="5.5555"/>
+<grid width="11.08398"/>
 <grid width="3.142"/>
 <grid width="4"/>
 
@@ -11442,6 +11445,7 @@
 <ligature sequence="k a s" replacement="kas" priority="1"/>
 <ligature sequence="k e n" replacement="ken" priority="1"/>
 <ligature sequence="k e p" replacement="kep" priority="1"/>
+<ligature sequence="k i 0" replacement="ki" priority="1"/>
 <ligature sequence="k i j" replacement="kij" priority="1"/>
 <ligature sequence="k i l" replacement="kil" priority="1"/>
 <ligature sequence="k i n" replacement="kin" priority="1"/>
@@ -11500,6 +11504,7 @@
 <ligature sequence="s a m" replacement="sam" priority="1"/>
 <ligature sequence="s e m" replacement="sem" priority="1"/>
 <ligature sequence="s e w" replacement="sew" priority="1"/>
+<ligature sequence="s i 0" replacement="si" priority="1"/>
 <ligature sequence="s i j" replacement="sij" priority="1"/>
 <ligature sequence="s i k" replacement="sik" priority="1"/>
 <ligature sequence="s i n" replacement="sin" priority="1"/>
@@ -11528,6 +11533,7 @@
 <ligature sequence="w a s" replacement="was" priority="1"/>
 <ligature sequence="w a w" replacement="waw" priority="1"/>
 <ligature sequence="w e k" replacement="wek" priority="1"/>
+<ligature sequence="w i 0" replacement="wi" priority="1"/>
 <ligature sequence="w i l" replacement="wil" priority="1"/>
 <ligature sequence="+ +" replacement="++" priority="1"/>
 <ligature sequence="- -" replacement="--" priority="1"/>
@@ -11553,7 +11559,6 @@
 <ligature sequence="i n" replacement="in" priority="1"/>
 <ligature sequence="j e" replacement="je" priority="1"/>
 <ligature sequence="j o" replacement="jo" priority="1"/>
-<ligature sequence="k i" replacement="ki" priority="1"/>
 <ligature sequence="k o" replacement="ko" priority="1"/>
 <ligature sequence="k u" replacement="ku" priority="1"/>
 <ligature sequence="l a" replacement="la" priority="1"/>
@@ -11570,7 +11575,6 @@
 <ligature sequence="o p" replacement="op" priority="1"/>
 <ligature sequence="p i" replacement="pi" priority="1"/>
 <ligature sequence="p u" replacement="pu" priority="1"/>
-<ligature sequence="s i" replacement="si" priority="1"/>
 <ligature sequence="s n" replacement="sn" priority="1"/>
 <ligature sequence="space space" replacement="spacespace" priority="1"/>
 <ligature sequence="t e" replacement="te" priority="1"/>
@@ -11583,7 +11587,6 @@
 <ligature sequence="v v" replacement="vv" priority="1"/>
 <ligature sequence="w a" replacement="wa" priority="1"/>
 <ligature sequence="w e" replacement="we" priority="1"/>
-<ligature sequence="w i" replacement="wi" priority="1"/>
 <ligature sequence="z z" replacement="zz" priority="1"/>
 <ligature sequence="| |" replacement="||" priority="1"/>
 
