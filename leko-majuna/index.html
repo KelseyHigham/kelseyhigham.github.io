@@ -84,7 +84,7 @@ kijetesantakalu kin kipisi ku leko meli mije monsuta namako soko tonsi
 
 lanpan meso misikeke n oko
 
-apeja epiku jasima kiki kokosilalinluwi majuna powe
+ali apeja epiku jasima kiki kokosila linluwi linuwi majuna powe
 
 isipin kapesi misa misa1 misa2 misa3 misa4 misa5 nimisin okeomekapo pake
 puwa taki te to unu wa wuwojiti yupekosi
@@ -101,3 +101,27 @@ zz zz silapa3 snoweli soni taaasun waken waso Keli</p>
 <h1>o sitelen</h1>
 
 <textarea>mu</textarea>
+
+<script>
+/*  workaround for Chromium
+
+    Chrome has a bug where ligatures aren't properly applied at typing-time. for example, if you type "pona", it erroneously shows a p followed by a sideways 6, rather than one smile.
+    i work around this by refreshing the textarea after every keystroke.
+    i refresh the textarea by changing one property, back and forth between two values that will result in the same appearance on most modern devices.
+*/
+
+const textarea = document.querySelector('textarea');
+var cssToggle = false;
+
+textarea.addEventListener('input', redrawTextarea);
+
+function redrawTextarea(e) {
+  if (cssToggle) {
+    textarea.style.fontVariantLigatures = 'normal';
+    cssToggle = false;
+  } else {
+    textarea.style.fontVariantLigatures = 'common-ligatures';
+    cssToggle = true;
+  }
+}
+</script>
