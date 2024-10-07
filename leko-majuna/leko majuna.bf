@@ -13,7 +13,7 @@
 <unique_identifier>leko majuna</unique_identifier>
 <version>Version 2.0</version>
 <description></description>
-<copyright>Copyright Kelsey Higham 2023</copyright>
+<copyright>Copyright waso Keli 2023</copyright>
 <license>SIL Open Font License</license>
 <license_url></license_url>
 <weight>400</weight>
@@ -21,7 +21,7 @@
 <units_per_em>1024</units_per_em>
 <trademark></trademark>
 <manufacturer></manufacturer>
-<designer>Kelsey Higham</designer>
+<designer>waso Keli</designer>
 <vendor_url></vendor_url>
 <vendor_id>Bird</vendor_id>
 <designer_url></designer_url>
