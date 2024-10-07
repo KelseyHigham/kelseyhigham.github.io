@@ -51,8 +51,8 @@
 <base_filename_mac>leko majuna Regular Mac</base_filename_mac>
 <export_ttf_font>true</export_ttf_font>
 <export_otf_font>false</export_otf_font>
-<export_eot_font>true</export_eot_font>
-<export_svg_font>true</export_svg_font>
+<export_eot_font>false</export_eot_font>
+<export_svg_font>false</export_svg_font>
 <export_colr_table>false</export_colr_table>
 <export_svg_table>false</export_svg_table>
 <optimize_otf_for_size>false</optimize_otf_for_size>
@@ -11899,8 +11899,8 @@
 <ligature sequence="&gt; &gt;" replacement="&gt;&gt;" priority="1"/>
 <ligature sequence="&gt; V" replacement="v&gt;" priority="1"/>
 <ligature sequence="&gt; ^" replacement="&gt;^" priority="1"/>
-<ligature sequence="&gt; v" replacement="v&gt;" priority="1"/>
 <ligature sequence="&gt; v" replacement="&gt;v" priority="1"/>
+<ligature sequence="&gt; v" replacement="v&gt;" priority="1"/>
 <ligature sequence="V &lt;" replacement="v&lt;" priority="1"/>
 <ligature sequence="V &gt;" replacement="v&gt;" priority="1"/>
 <ligature sequence="V V" replacement="vv" priority="1"/>
@@ -11951,10 +11951,10 @@
 <ligature sequence="w e" replacement="we" priority="1"/>
 <ligature sequence="z z" replacement="zz" priority="1"/>
 <ligature sequence="| |" replacement="||" priority="1"/>
-<contextual ligature=".space" backtrack="." input="space" lookahead="" />
-<contextual ligature="!space" backtrack="!" input="space" lookahead="" />
-<contextual ligature="?space" backtrack="?" input="space" lookahead="" />
-<contextual ligature=":space" backtrack=":" input="space" lookahead="" />
 <contextual ligature="·space" backtrack="·" input="space" lookahead="" />
+<contextual ligature=":space" backtrack=":" input="space" lookahead="" />
+<contextual ligature="?space" backtrack="?" input="space" lookahead="" />
+<contextual ligature="!space" backtrack="!" input="space" lookahead="" />
+<contextual ligature=".space" backtrack="." input="space" lookahead="" />
 
 </font>
